@@ -78,7 +78,7 @@ Press `Ctrl+C` to stop gracefully and see active positions.
 - `position_sizing.py` - Calculates position sizes based on risk
 - `position_manager.py` - Monitors active positions and manages exits
 - `strategy_config.py` - All configurable parameters
-- `bitquery.py` - Handles Bitquery Kafka stream connection
+- `bitquery.py` - Handles Bitquery Kafka stream connection. Read more on the dex pool stream [here](https://docs.bitquery.io/docs/cubes/evm-dexpool/)
 - `utils.py` - Helper functions for data conversion and formatting
 - `config.py` - Your credentials (not in repo, create from `config_sample.py`)
 
