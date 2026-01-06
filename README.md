@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ### 2. Configure Credentials
 
-Copy `config_sample.py` to `config.py` and fill in your Bitquery credentials:
+Copy `config_sample.py` to `config.py` and fill in your Bitquery credentials, this will be provided by their team.
 
 ```python
 eth_username = "your_username"
