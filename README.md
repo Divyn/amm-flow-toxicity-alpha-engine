@@ -81,3 +81,11 @@ Press `Ctrl+C` to stop gracefully and see active positions.
 - `bitquery.py` - Handles Bitquery Kafka stream connection
 - `utils.py` - Helper functions for data conversion and formatting
 - `config.py` - Your credentials (not in repo, create from `config_sample.py`)
+
+## Configuration Tips
+
+- **Lower MIN_IMPACT**: More trades, but smaller moves (less profit per trade)
+- **Higher MAX_IMPACT**: Only fade very large moves (fewer trades, higher risk)
+- **Longer WAIT_TIME**: More confirmation, but might miss quick reversals
+- **Larger MAX_POSITION_SIZE**: Bigger positions, more risk/reward
+- **Tighter STOP_LOSS**: Exit faster, smaller losses but also smaller wins
