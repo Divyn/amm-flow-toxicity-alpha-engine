@@ -1,0 +1,4 @@
+confluent-kafka
+protobuf
+base58
+bitquery-pb2-kafka-package
