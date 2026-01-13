@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ### 2. Configure Credentials
 
-Copy `config_sample.py` to `config.py` and fill in your Bitquery credentials, this will be provided by their team.
+Copy `config_sample.py` to `config.py` and fill in your Bitquery credentials, this will be provided by their team. For docs on the streams, read more [here](https://docs.bitquery.io/docs/streams/kafka-streaming-concepts/)
 
 ```python
 eth_username = "your_username"
